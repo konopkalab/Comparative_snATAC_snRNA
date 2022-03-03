@@ -14,7 +14,7 @@ library(scater)
 library(MAST)
 library(gridExtra)
 library(pheatmap)
-source("~/onlybiohpc/pr3/OUR_DATA/utility_functions.R")
+source("utility_functions.R")
 
 ####
 ## DEG ANALYSIS EXCITATORY

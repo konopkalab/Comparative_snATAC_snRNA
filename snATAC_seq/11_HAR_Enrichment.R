@@ -14,7 +14,7 @@ library(rio)
 library(GenomicRanges)
 library(liftOver)
 library('bedr')
-source("~/onlybiohpc/pr3/OUR_DATA/utility_functions.R")
+source("utility_functions.R")
 
 ####
 ## MERGE HAR DATASETS

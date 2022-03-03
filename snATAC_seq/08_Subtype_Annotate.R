@@ -59,7 +59,7 @@ pdf('human_clusters_GLIAMARKERS.pdf', width = 20, height = 8)
 VlnPlot(human_exc, c('ST18', 'MOG', 'AQP4', 'APBB1IP', 'PTPRZ1'), assay = 'RNA', pt.size = 0)
 dev.off()
 
-saveRDS(human_exc, "~/workdir/pr3/atacseq/human_chimp_macaque/11_exc_integration/human_to_human/human_reclustered.RDS")
+saveRDS(human_exc, "human_reclustered.RDS")
 
 
 ####
@@ -132,7 +132,7 @@ pdf('Human_Atac_Exc_annotated_FINAL.pdf')
 DimPlot(human_exc, group.by = 'newannot', label = T) + NoLegend()
 dev.off()
 
-saveRDS(human_exc, "~/workdir/pr3/atacseq/human_chimp_macaque/11_exc_integration/human_to_human/human_annotated.RDS")
+saveRDS(human_exc, "human_annotated.RDS")
 
 
 

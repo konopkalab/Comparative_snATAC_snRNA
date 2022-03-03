@@ -11,7 +11,7 @@ library(data.table)
 library(rio)
 library(GeneOverlap)
 library(Seurat)
-source("~/onlybiohpc/pr3/OUR_DATA/utility_functions.R")
+source("utility_functions.R")
 
 
 ####

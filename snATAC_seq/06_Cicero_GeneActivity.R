@@ -6,7 +6,7 @@ library(tidyverse)
 library(ggpubr)
 library(ggplot2)
 library(Signac)
-source("~/onlybiohpc/pr3/organized/FINAL_SCRIPTS_ATAC/custom_functions.R")
+source("custom_functions.R")
 
 ####
 ## FIND CONNECTIONS BETWEEN CREs

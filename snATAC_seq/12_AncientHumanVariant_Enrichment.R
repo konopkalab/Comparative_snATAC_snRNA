@@ -15,12 +15,12 @@ library(GenomicRanges)
 library(liftOver)
 library(data.table)
 library('bedr')
-source("~/onlybiohpc/pr3/OUR_DATA/utility_functions.R")
+source("utility_functions.R")
 
 ####
 ## MODERN VARIANT DATASET (Prufer, 2013) https://www.nature.com/articles/nature12886
 ####
-hvars = fread('~/workdir/reference_genomes/ARCHAIC_HUMAN/MODERN_OVER_ARHAIC/HumanDerived_SNC_bothgq30.all_combined_maxsco_ranked_UPDATED_PHASE3_1000G.tsv', header = T) %>% as.data.frame
+hvars = fread('HumanDerived_SNC_bothgq30.all_combined_maxsco_ranked_UPDATED_PHASE3_1000G.tsv', header = T) %>% as.data.frame
 
 # Keep only the ones >90% frequency
 hvars = hvars[hvars[, 'Human_Maj_1000G_PHASE3'] > 0.9,]
