@@ -2,9 +2,9 @@
 This directory contains analysis scripts for comparative snATAC-seq and snRNA-seq experiments performed on human, chimpanzee and rhesus macaque.
 
 The folders are organized as:
-
-**snATAC_seq: Scripts to preprocess snATAC-seq dataset after peak calling. Scripts are numbered based on their order.
-**
+\
+\
+**snATAC_seq: Scripts to preprocess snATAC-seq dataset after peak calling. Scripts are numbered based on their order.**
 
 01: Finds consensus peaks (aka CREs) across samples per species.
 
@@ -37,10 +37,10 @@ The folders are organized as:
 15: Motif enrichment of open-chromatin regions associated with CREs in Kozlenkov et al. (https://www.pnas.org/doi/10.1073/pnas.2011884117)
 
 16: Overlap of CREs in this study with activity regulated CREs in Boulting et al. (https://www.nature.com/articles/s41593-020-00786-1)
-
-
-**snRNA_seq: Scripts to preprocess snRNA-seq dataset after count matrix generation. Scripts are numbered based on their order.
-**
+\
+\
+\
+**snRNA_seq: Scripts to preprocess snRNA-seq dataset after count matrix generation. Scripts are numbered based on their order.**
 
 01: Broad annotation of cell types per species.
 
@@ -53,9 +53,11 @@ The folders are organized as:
 05: Enrichment of DEGs with genes dysregulated in disease based on bulk transcriptomic comparisons (disease dataset: https://www.science.org/doi/10.1126/science.aat8127)
 
 06: Enrichment of DEGs with genes dysregulated in disease based on cell type specific transcriptomic comparisons.
-
-
-**Supplementary_Functions: Contains functions used in other scripts
-**
-
+\
+\
+\
+**Supplementary_Functions: Contains functions used in other scripts**
+\
+\
+\
 Please do not hesitate contact me with any questions: emre.caglayan@utsouthwestern.edu
