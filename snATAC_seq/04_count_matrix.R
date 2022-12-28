@@ -23,7 +23,7 @@ ov_peak = as.data.frame(ov_peak)
 rip = table(ov_peak$V1)
 
 # Get total reads per barcode.
-barc_count = fread(paste0("consensus_peaks/04_consensus_peaks/", sp,  samp, "_reads.bed"), stringsAsFactors = F)
+barc_count = fread(paste0("consensus_peaks/", sp,  samp, "_reads.bed"), stringsAsFactors = F)
 barc_count = as.data.frame(barc_count)
 barc_table = table(barc_count$V5)
 barc_table_filt = barc_table[names(barc_table) %in% names(rip)]
