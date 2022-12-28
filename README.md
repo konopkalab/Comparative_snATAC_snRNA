@@ -22,21 +22,22 @@ The folders are organized as:
 
 08: Subtype annotation of broadly annotated cell types per species. Accompanying snRNA-seq is used as a reference to achieve this.
 
-09: Differentially accessible region (DAR) analysis between species per cell type.
+09: Differentially accessible region analysis between species per cell type.
 
-10: Motif enrichments of DAR and other CREs of interest per cell type per species.
+10: Motif enrichments of CREs with human-specific accessibility per cell type.
 
-11: Human accelerated region (HAR) enrichments of differentially accessible CREs between species.
+11_01: Human accelerated region (HAR) identification on cortical CREs.
 
-12: Ancient human variant enrichments of differentially accessible CREs (DA-CREs) between species and identification of species-specifically regulated CREs.
+11_02_03: Human accelerated region (HAR) enrichments of differentially accessible CREs between species.
 
-13: Overlap of DA-CREs and DEGs per species per cell type compared to randomized background.
+12_01: Identify modern human-specific substitutions by comparing to 3 neanderthals and 1 denisovan.
 
-14: Overlap of CREs in this study with Kozlenkov et al. (https://www.pnas.org/doi/10.1073/pnas.2011884117)
+12_02: Enrichment between modern human-specific substitutions and human-specific CRE accessibility changes per cell type.
 
-15: Motif enrichment of open-chromatin regions associated with CREs in Kozlenkov et al. (https://www.pnas.org/doi/10.1073/pnas.2011884117)
+13: Overlap of differentially accessible CREs and DEGs per species per cell type compared to randomized background.
 
-16: Overlap of CREs in this study with activity regulated CREs in Boulting et al. (https://www.nature.com/articles/s41593-020-00786-1)
+14: Identification of human-specific substitutions within CREs compared to great ape species.
+
 \
 \
 \
@@ -46,13 +47,12 @@ The folders are organized as:
 
 02: Subtype annotation of broadly annotated cell types after integrating species to identify homologous cell types.
 
-03: Differential gene expression (DEG) analysis between species and identification of species-specifically regulated genes.
+03: Statistical comparison of cell type ratios between species.
 
-04: Gene ontology (GO) enrichment of DEGs between species.
+04: Differential gene expression (DEG) analysis between species and identification of species-specifically regulated genes.
 
-05: Enrichment of DEGs with genes dysregulated in disease based on bulk transcriptomic comparisons (disease dataset: https://www.science.org/doi/10.1126/science.aat8127)
+05: Gene ontology (GO) enrichment of DEGs between species.
 
-06: Enrichment of DEGs with genes dysregulated in disease based on cell type specific transcriptomic comparisons.
 \
 \
 \
